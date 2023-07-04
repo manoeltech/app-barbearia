@@ -4,7 +4,7 @@ const textResult = document.querySelector('#textResult')
 
 getService.addEventListener('click', function(){
   let price = getService.value 
-  textResult.innerHTML = `Total: R$ ${price}`
+  textResult.innerHTML = `<b>Total:</b> R$ ${price}`
 })
 
 btnSubmit.addEventListener('click', function(){
