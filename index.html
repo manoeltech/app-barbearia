@@ -5,14 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barbearia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0e8ff86c62.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Nossos serviços</h1>
-  <ul>
-    <li>Cabelo</li>
-    <li>barba</li>
-    <li>Sombrancelhas</li>
-    <li>Corte completo</li>
-  </ul>
+  <div class="container">
+    <h1>Selecione o serviço:</h1>
+      <!-- <div class="select-btn">
+         <span>Selecione o serviço:</span>
+        <i class="fa-solid fa-caret-down"></i>
+      </div> -->
+      <select name="barberDev" id="selectService">
+        <option value="30,00" id="corteService">Corte cabelo</option>
+        <option value="15,00" id="barbaService">Barba</option>
+        <option value="15,00" id="sombrancelhaService">sombrancelha</option>
+      </select>
+      <button type="submit">Selecionar</button>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
